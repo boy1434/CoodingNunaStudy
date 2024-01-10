@@ -1,24 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 
 function Home(){
     return(
        <div className="home">
-                <p>
-                    1. HTML/CSS Study
-                </p>
+                <li>
+                  <Link to="/Hc">   HTML/CSS Study </Link>
+                    
+                </li>
 
-                <p>
-                    2. JavaScript Study
-                </p>
+                <li>
+                    JavaScript Study
+                    
+                </li>
 
-                <p>
-                    3. React Study
-                </p>
+                <li>
+                    React Study
+                    
+                </li>
 
-                <p>
-                    4. Node.js Study
-                </p>
+                <li>
+                    Node.js Study
+                    
+                </li>
             
        </div>
     );
