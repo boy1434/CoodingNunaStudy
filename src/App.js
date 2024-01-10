@@ -1,21 +1,23 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-import Detail from "./routes/Detail";
-import Home from "./routes/Home"
+import Home from "./components/Home";
+import React from "react";
+import "./Header.css";
+import { BrowserRouter, Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
+import Header from "./components/Header";
+
+
 function App() {
-  return <Router>
-    <Switch>
-      <Route path="/movie/:id">
-        <Detail />
-      </Route>
-      <Route path="/">
-        <Home />
-      </Route>
-    </Switch>
-  </Router>;
+  return (
+    <BrowserRouter>
+      <Header/>
+      <Switch>
+        <Route exact path="/">
+        <Home/>
+        </Route>
+      </Switch>
+    </BrowserRouter>
+  
+  )
+  
 }
 
 export default App;
