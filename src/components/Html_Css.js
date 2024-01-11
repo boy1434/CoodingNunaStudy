@@ -14,7 +14,11 @@ function HC(){
           </div>
 
           <div>
-            <Link to="/">3.구글 웹사이트 만들기</Link>
+            <Link to="/Thi_Pr">3.구글 웹사이트 만들기</Link>
+          </div>
+
+          <div>
+            <Link to="/Four_pr">4.인스타 웹사이트 만들기</Link>
           </div>
         </div>
     )

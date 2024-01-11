@@ -58,3 +58,203 @@ h1::before{
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
     padding: 10%;
 }
+
+body {
+    display: contents;
+  }
+  
+  .navbar {
+    float: right;
+    margin: 20px;
+  }
+  
+  .first-nav-item {
+  
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+  }
+  
+  .second-nav-item {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+  }
+  
+  .nav-item:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    margin-top: 300px;
+    text-align: center;
+  }
+  
+  .input-area {
+    margin-top: 20px;
+  }
+  
+  .input-box {
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .search-icon {
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+  }
+  
+  .mic-icon {
+    position: relative;
+    right: 40px;
+    color: #9aa0a6;
+  }
+  
+  .button-area {
+    padding-top: 18px;
+  }
+  
+  .button-style {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    padding: 0 16px;
+    margin: 10px 25px;
+  }
+  
+  .button-style:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+    width: 100%;
+  }
+  
+  .first-line {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+  }
+  
+  .second-line {
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .54);
+  }
+  
+  .second-line-sencond {
+    float: right;
+  }
+  
+  .second-line-item {
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+  }
+  
+  .second-line-item:hover {
+    text-decoration: underline;
+  }
+  
+  .language {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #9aa0a6;
+  
+  }
+  
+  .language:hover {
+    text-decoration: underline;
+  }
+
+.insta_main{
+    display: flex;
+    justify-content: center;
+}
+
+.insta_mainbox{
+    border: 1px solid #dfe1e5 ;
+    width: 350px;
+    height: 402px;
+    align-items: center;
+    text-align: center;
+    margin: 0, 0, 10px;
+    padding: 25px;
+    
+}
+
+.input_box{
+    margin:15px;
+    border-radius: 1px;
+    
+}
+
+.id_input{
+    width: 258px;
+    height: 38px;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: #dfe1e5;
+    border: 1px solid gray;
+}
+.pw_input{
+    width: 258px;
+    height: 38px; 
+    padding-left: 10px;
+    border-radius: 8px;
+    border: #dfe1e5;
+    border: 1px solid gray;
+}
+
+.insta_login_btn {
+    border-radius: 14px;
+    margin-top: 8px;
+    width: 278px;
+    height: 38px;
+    color: white;
+    font-family: inherit;
+    font-size: 100%;
+    background-color:rgb(146, 215, 236);
+    border: #dfe1e5;
+}
+
+.insta_login_btn:hover{
+    background-color: #2980b9;
+    text-align: center;
+    overflow: visible;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #9aa0a6;
+    text-align: center;
+    overflow: visible;
+    margin-top: 30px;
+    color: #dfe1e5;
+    width: 70%;
+}
+
+hr:after{
+    content: "또는";
+    position: relative;
+    top: -15px;
+    background-color: white;
+    padding: 0 20px;
+    color: #9aa0a6;
+    font-family: inherit;
+}

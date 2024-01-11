@@ -7,6 +7,8 @@ import Header from "./components/Header";
 import Html_Css from "./components/Html_Css";
 import First_Prj from "./components/HTML_Pr/First_Prj";
 import Second_Prj from "./components/HTML_Pr/Second_Prj";
+import Third_Prj from "./components/HTML_Pr/Third_Prj";
+import FourTh_Prj from "./components/HTML_Pr/Fourth_Prj";
 
 function App() {
   return (
@@ -22,16 +24,21 @@ function App() {
           <Html_Css />
         </Route>
 
-        <Route>
-      <First_Prj exact path="/Fst_Pr" />
+        <Route exact path="/Fst_Pr">
+      <First_Prj />
+      
         </Route>
 
-        <Route>
-        <Second_Prj exact path="/Sec_Pr/:Sec_pr"/>
+        <Route exact path="/Sec_Pr">
+        <Second_Prj />
+        </Route>
+
+        <Route exact path="/Thi_Pr">
+          <Third_Prj />
         </Route>
 
       </Switch>
-      
+      <FourTh_Prj />
     </BrowserRouter>
   
   )
