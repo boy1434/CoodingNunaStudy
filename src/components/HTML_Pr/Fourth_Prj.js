@@ -38,8 +38,8 @@ function FourTh_Prj() {
 
                         <div>
                             <span>
-                                <img className="download_img" src="https://static.cdninstagram.com/rsrc.php/v3/yi/r/cWx_hQBPmbo.png"></img>
-                                <img className="download_img" src="https://static.cdninstagram.com/rsrc.php/v3/ye/r/UtJtFmFLCiD.png"></img>
+                                <a href="https://apps.apple.com/us/app/instagram/id389801252?vt=lo"><img className="download_img" src="https://static.cdninstagram.com/rsrc.php/v3/yi/r/cWx_hQBPmbo.png"></img></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D89FFCE60-2A71-4715-B593-671BA47745A6%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge%26original_referrer%3Dhttps%3A%2F%2Fwww.instagram.com%2F"><img className="download_img" src="https://static.cdninstagram.com/rsrc.php/v3/ye/r/UtJtFmFLCiD.png"></img></a>
                             </span>
                         </div>
 

@@ -2,7 +2,7 @@ import Home from "./components/Home";
 import React from "react";
 import "./Header.css";
 import "./style.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
+import { HashRouter, Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
 import Header from "./components/Header";
 import Html_Css from "./components/Html_Css";
 import First_Prj from "./components/HTML_Pr/First_Prj";
@@ -12,7 +12,7 @@ import FourTh_Prj from "./components/HTML_Pr/Fourth_Prj";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Switch>
 
@@ -43,7 +43,7 @@ function App() {
 
       </Switch>
       
-    </BrowserRouter>
+    </HashRouter>
   
   )
   
