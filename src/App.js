@@ -37,8 +37,12 @@ function App() {
           <Third_Prj />
         </Route>
 
+        <Route exact path="/Four_Pr">
+          <FourTh_Prj />
+        </Route>
+
       </Switch>
-      <FourTh_Prj />
+      
     </BrowserRouter>
   
   )
