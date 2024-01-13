@@ -11,20 +11,7 @@ function Home(){
                         
                     </li>
 
-                    <li className="home_content">
-                        JavaScript Study
-                        
-                    </li>
-
-                    <li className="home_content">
-                        React.js Study
-                        
-                    </li>
-
-                    <li className="home_content">
-                        Node.js Study
-                        
-                    </li>
+                    
                 
         </div>
        </div> 

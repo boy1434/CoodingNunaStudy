@@ -1,5 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
 
 
 function Sixth_Prj(){
@@ -83,6 +84,8 @@ function Sixth_Prj(){
                         </div>
 
                         <div className="spotify_second_box">
+                            <div className="spotify_icon_box"></div>
+                            <div className="spotify_icon_box"></div>
                             <div className="spotify_icon_box"></div>
                         </div>
                     </div>
