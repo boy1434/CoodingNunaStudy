@@ -20,6 +20,10 @@ function HC(){
           <div className="HC_component">
             <Link className="link_component" to="/Four_pr">4.인스타 웹사이트 만들기</Link>
           </div>
+
+          <div className="HC_component">
+            <Link className="link_component" to="/Fif_pr">5.Position</Link>
+          </div>
         </div>
     )
 }

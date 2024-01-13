@@ -17,7 +17,7 @@ function Home(){
                     </li>
 
                     <li className="home_content">
-                        React Study
+                        React.js Study
                         
                     </li>
 
