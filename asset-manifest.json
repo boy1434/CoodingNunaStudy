@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/CoodingNunaStudy/static/css/main.508d0dad.css",
-    "main.js": "/CoodingNunaStudy/static/js/main.daf482ec.js",
+    "main.css": "/CoodingNunaStudy/static/css/main.e70d4eec.css",
+    "main.js": "/CoodingNunaStudy/static/js/main.e6f28a41.js",
     "index.html": "/CoodingNunaStudy/index.html",
-    "main.508d0dad.css.map": "/CoodingNunaStudy/static/css/main.508d0dad.css.map",
-    "main.daf482ec.js.map": "/CoodingNunaStudy/static/js/main.daf482ec.js.map"
+    "main.e70d4eec.css.map": "/CoodingNunaStudy/static/css/main.e70d4eec.css.map",
+    "main.e6f28a41.js.map": "/CoodingNunaStudy/static/js/main.e6f28a41.js.map"
   },
   "entrypoints": [
-    "static/css/main.508d0dad.css",
-    "static/js/main.daf482ec.js"
+    "static/css/main.e70d4eec.css",
+    "static/js/main.e6f28a41.js"
   ]
 }
