@@ -380,7 +380,6 @@ select{
 }
 
 .positioning{
-    border: 1px solid red;
     width: 700px;
     height: auto;
     padding: 10px;
@@ -534,6 +533,150 @@ select{
     
 }
 
+.spotify_header{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
 
+.spotify_nav{
+    padding: 28px 17px;
+    font-weight: 700;
 
+}
 
+.spotify_body{
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.spotify_footer{
+    height: 530px;
+    background-color: black;
+}
+
+.spotify_img{
+    width: 132px;
+    height: 45px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+a:hover{
+    color: green;
+}
+
+.body_headline{
+    font-size: 146px;
+    line-height: 166px;
+    color: #1ed760;
+    font-weight: 900;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+    
+
+}
+
+.body_headline_first{
+    position: relative;
+    left: -2.5em;
+}
+
+.body_sub_headline{
+    color: #1ed760;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.spotify_btn{
+    text-align: center;
+}
+
+.spotify_btn_style{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+
+.spotify_footer{
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.spotify_container{
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.spotify_footer_menu{
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+
+.spotify_first_box{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spotify_column{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.spotify_sub_title{
+    color: #919496;
+    font-weight: 900;
+    margin:20px 0px;
+}
+
+.spotify_footer_item{
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.spotify_second_box{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.spotify_icon_box{
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

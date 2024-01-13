@@ -10,6 +10,8 @@ import Second_Prj from "./components/HTML_Pr/Second_Prj";
 import Third_Prj from "./components/HTML_Pr/Third_Prj";
 import FourTh_Prj from "./components/HTML_Pr/Fourth_Prj";
 import Fifth_Prj from "./components/HTML_Pr/Fifth_Prj";
+import Sixth_Prj from "./components/HTML_Pr/Sixth_Prj";
+
 
 function App() {
   return (
@@ -46,6 +48,8 @@ function App() {
       <Fifth_Prj />
         </Route>
       </Switch>
+
+      <Sixth_Prj />
     </HashRouter>
   
   )
