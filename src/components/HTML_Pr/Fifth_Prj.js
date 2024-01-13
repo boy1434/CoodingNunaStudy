@@ -112,14 +112,60 @@ function Fifth_Prj(){
                 
                 
 
-                <div className="">  
+                <div className="locate_display_flex_space-between">  
 
-                <div className="po_box black">div1</div>
-                <div className="po_box black">div2</div>
+                <div className="po_box black ">div1</div>
+                <div className="po_box black pad">div2</div>
                 <div className="po_box black">div3</div>
 
                 </div>
             </div>
+
+            <div className="po_box_seperate ">
+                <h4>문제 2</h4>
+                
+                
+
+                <div className="locate_display_flex_space-between">  
+
+                <div className="po_box black">div1</div>
+                <div className="po_box black pad1">div2</div>
+                <div className="po_box black pad2">div3</div>
+
+                </div>
+            </div>
+
+            <div className="po_box_seperate ">
+                <h4>문제 3</h4>
+                
+                
+
+                <div className="locate_display_flex_center">  
+            
+                <div className="po_box gray locate_display_flex_center locate_display_flex_align_items ">div1
+                <div className="po_box black">div2</div>
+                </div>
+                
+                
+
+                </div>
+            </div>
+
+            <div className="po_box_seperate ">
+                <h4>문제 4</h4>
+                
+                
+
+                <div className="">  
+
+                <div className="po_box black">div1</div>
+                <div className="po_box black locate_absolute_pro1">div2</div>
+                
+
+                </div>
+            </div>
+
+            
 
             </div>
         </div>

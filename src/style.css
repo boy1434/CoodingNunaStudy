@@ -418,6 +418,15 @@ select{
 
 .black{
     background-color: black;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+}
+
+.gray{
+    background-color: gray;
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -466,3 +475,65 @@ select{
     flex-direction: column;
     justify-content: space-between;
 }
+
+.pad{
+  position: relative;
+  left:20px ;
+}
+
+.pad1{
+    margin-top: 100px;
+}
+
+.pad2{
+    margin-top: 200px;
+}
+
+.pro3{
+    position: absolute;
+  
+  bottom: 0px;
+  width: 50px;
+  height: 50px;
+
+}
+
+.locate_absolute_pro1{
+    position: relative;
+    left: 50px;
+    top:-50px;
+    
+}
+
+.pro_box1{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+}
+
+.pro_box2{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    color: white;
+    border: 1px solid white;
+}
+
+.pro_box2_1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom:0;
+}
+
+.pro_box2_2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top:0;
+    
+}
+
+
+
+
