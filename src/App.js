@@ -42,8 +42,10 @@ function App() {
           <FourTh_Prj />
         </Route>
 
-      </Switch>
+        <Route exact path="/Fif_pr">
       <Fifth_Prj />
+        </Route>
+      </Switch>
     </HashRouter>
   
   )
